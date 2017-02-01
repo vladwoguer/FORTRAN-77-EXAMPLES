@@ -18,8 +18,9 @@ C     Conditional
          WRITE(*,*) 'Seu numero eh diferente de 5'
       END IF
       
-      
-
-     
+      IF(A) 10,20,30
+10    WRITE(*,*) 'Seu numero eh menor que 0'
+20    WRITE(*,*) 'Seu numero eh igual a 0'
+30    WRITE(*,*) 'Seu numero eh maior que 0'     
       STOP
       END
